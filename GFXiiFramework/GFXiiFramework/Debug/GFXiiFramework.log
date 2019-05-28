@@ -1,0 +1,48 @@
+﻿Build started 27/04/2015 07:45:46.
+     1>Project "C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\GFXiiFramework\GFXiiFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Software\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"\\ctstudent2\studentusers\100293154\Documents\Graphics\Graphics 2\GFXiiFramework\GFXiiFramework\glm" /I\\GFXiiFramework\GFXiiFramework\glm /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGL\OGLWindow.cpp
+         OGLWindow.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(138): warning C4316: 'OGLMesh' : object allocated on the heap may not be aligned 16
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(158): warning C4316: 'OGLMesh' : object allocated on the heap may not be aligned 16
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(178): warning C4316: 'OGLMesh' : object allocated on the heap may not be aligned 16
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(202): warning C4316: 'OGLMesh' : object allocated on the heap may not be aligned 16
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(230): warning C4316: 'SkyBox' : object allocated on the heap may not be aligned 16
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(348): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(774): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(786): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(787): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(790): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(794): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\oglwindow.cpp(809): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\Software\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Debug\GFXiiFramework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Debug\GFXiiFramework.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Debug\GFXiiFramework.lib" /MACHINE:X86 Debug\GFXiiFramework.res
+         Debug\BaseApplication.obj
+         Debug\camera.obj
+         Debug\D3D11Cube.obj
+         Debug\D3D11Mesh.obj
+         Debug\D3D11Shader.obj
+         Debug\D3D11Texture.obj
+         Debug\D3D11Window.obj
+         Debug\GFXiiFramework.obj
+         Debug\ImageIO.obj
+         Debug\InputHandler.obj
+         Debug\OBJFileReader.obj
+         Debug\OGLTerrain.obj
+         Debug\OGLCube.obj
+         Debug\OGLMesh.obj
+         Debug\OGLShader.obj
+         Debug\OGLTexture.obj
+         Debug\OGLWindow.obj
+         Debug\quaternion.obj
+         Debug\Ray.obj
+         Debug\SkyBox.obj
+         Debug\Triangle.obj
+         Debug\Vector3.obj
+         GLEW\lib\glew32.lib
+         GFXiiFramework.vcxproj -> C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Debug\GFXiiFramework.exe
+     1>Done Building Project "C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\GFXiiFramework\GFXiiFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.73

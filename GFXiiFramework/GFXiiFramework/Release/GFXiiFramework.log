@@ -1,0 +1,58 @@
+﻿Build started 27/04/2015 03:35:13.
+     1>Project "C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\GFXiiFramework\GFXiiFramework.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Release\basic_fs.cso" ..\asset\shader\hlsl\basic_fs.hlsl 
+     1>C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\asset\shader\hlsl\basic_fs.hlsl(13,12-55): warning X3206: 'Sample': implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Release\basic_fs.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Release\basic_vs.cso" ..\asset\shader\hlsl\basic_vs.hlsl 
+         compilation object save succeeded; see C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\Release\basic_vs.cso
+       ClCompile:
+         E:\Software\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApplication.cpp camera.cpp D3D11\D3D11Cube.cpp D3D11\D3D11Mesh.cpp D3D11\D3D11Shader.cpp D3D11\D3D11Texture.cpp D3D11\D3D11Window.cpp GFXiiFramework.cpp ImageIO.cpp InputHandler.cpp OBJFileReader.cpp OGLTerrain.cpp OpenGL\OGLCube.cpp OpenGL\OGLMesh.cpp OpenGL\OGLShader.cpp OpenGL\OGLTexture.cpp OpenGL\OGLWindow.cpp quaternion.cpp SkyBox.cpp Triangle.cpp Vector3.cpp
+         BaseApplication.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\camera.h(10): fatal error C1083: Cannot open include file: 'glm/glm/glm.hpp': No such file or directory
+         camera.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\camera.h(10): fatal error C1083: Cannot open include file: 'glm/glm/glm.hpp': No such file or directory
+         D3D11Cube.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\d3d11\D3D11Shader.h(4): fatal error C1083: Cannot open include file: 'ShaderBase.h': No such file or directory
+         D3D11Mesh.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\d3d11\D3D11Shader.h(4): fatal error C1083: Cannot open include file: 'ShaderBase.h': No such file or directory
+         D3D11Shader.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\d3d11\D3D11Shader.h(4): fatal error C1083: Cannot open include file: 'ShaderBase.h': No such file or directory
+         D3D11Texture.cpp
+     1>D3D11\D3D11Texture.cpp(5): fatal error C1083: Cannot open include file: 'ImageIO.h': No such file or directory
+         D3D11Window.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\d3d11\D3D11Window.h(7): fatal error C1083: Cannot open include file: 'RenderWindow.h': No such file or directory
+         GFXiiFramework.cpp
+         ImageIO.cpp
+         InputHandler.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\camera.h(10): fatal error C1083: Cannot open include file: 'glm/glm/glm.hpp': No such file or directory
+         OBJFileReader.cpp
+     1>OBJFileReader.cpp(114): warning C4101: 'index4' : unreferenced local variable
+     1>OBJFileReader.cpp(110): warning C4101: 'dummy' : unreferenced local variable
+     1>OBJFileReader.cpp(118): warning C4101: 'tidx4' : unreferenced local variable
+     1>OBJFileReader.cpp(116): warning C4101: 'nidx4' : unreferenced local variable
+         OGLTerrain.cpp
+         OGLCube.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\OGLCube.h(3): fatal error C1083: Cannot open include file: 'Renderable.h': No such file or directory
+         OGLMesh.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\OGLTexture.h(4): fatal error C1083: Cannot open include file: 'BaseTexture.h': No such file or directory
+         OGLShader.cpp
+     1>OpenGL\OGLShader.cpp(3): fatal error C1083: Cannot open include file: 'GLEW/include/glew.h': No such file or directory
+         OGLTexture.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\OGLTexture.h(4): fatal error C1083: Cannot open include file: 'BaseTexture.h': No such file or directory
+         OGLWindow.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\opengl\OGLWindow.h(3): fatal error C1083: Cannot open include file: 'RenderWindow.h': No such file or directory
+         quaternion.cpp
+     1>c:\users\liam\desktop\graphics 2 temp\flight sim 26-04-15\gfxiiframework\gfxiiframework\quaternion.h(9): fatal error C1083: Cannot open include file: 'glm/glm/glm.hpp': No such file or directory
+         SkyBox.cpp
+     1>SkyBox.cpp(81): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Triangle.cpp
+         Compiling...
+         Vector3.cpp
+     1>Vector3.cpp(139): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Done Building Project "C:\Users\Liam\Desktop\Graphics 2 temp\Flight Sim 26-04-15\GFXiiFramework\GFXiiFramework\GFXiiFramework.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.71
